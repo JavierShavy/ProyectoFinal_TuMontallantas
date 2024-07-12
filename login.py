@@ -18,7 +18,7 @@ class Login:
         self.root = root
         self.root.title("TuMontallantas - Ingresa")
         self.root.configure(bg = "#D9D9D9")
-        self.root.geometry("400x220+500+500") #Dimensiones de la ventana y posicion
+        self.root.geometry("400x220+600+400") #Dimensiones de la ventana y posicion
 
         # Configuración de la ventana principal
         self.frame = ttk.Frame(root, padding="5")
@@ -113,4 +113,7 @@ class Login:
                 ##self.root.destroy()
                 TuMontallantasApp(self.root)
                 return
+            else:
+                self.txtUsuario.delete(0, tk.END)
+                self.txtUsuario.insert(0, f"El usuario: {usuario[1]} no está registrado :(")
         db.close()
