@@ -4,7 +4,6 @@ from PIL import Image, ImageTk
 import requests
 from io import BytesIO
 #from functools import partial
-from googlemaps import Client
 from pathlib import Path
 
 class TuMontallantasApp:
