@@ -1,4 +1,4 @@
-## TuMontallantas: Encuentra el taller más cercano
+## :thumbsup:TuMontallantas: Encuentra el taller más cercano 
 #### Proyecto final - C3 Programación Nivel Explorador Presencial G1
 #### TALENTO TECH
 ### Autor: CARLOS JAVIER CERÓN DIAZ
